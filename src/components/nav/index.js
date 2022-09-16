@@ -8,8 +8,8 @@ function Nav() {
     <div className={styles.nav}>
       {/* <p>////////////////////////////////////</p> */}
       <ul>
-        {navLinks.map(({ title, url }) => (
-          <li>
+        {navLinks.map(({ title, url }, idx) => (
+          <li key={idx}>
             <Link href={url}>
               <a>{title}</a>
             </Link>
