@@ -38,6 +38,8 @@ export default function Home() {
         <p>
           $ <strong>Testing</strong> Jest, Mocha
         </p>
+        <br />
+        <h3>***<Link href="https://learn.kumarabhishek.dev/">Learn with me</Link>***</h3>
       </main>
     </div>
   );
